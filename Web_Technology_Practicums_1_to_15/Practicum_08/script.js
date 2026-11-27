@@ -1,0 +1,1 @@
+const label=document.getElementById('screenSize');function updateSize(){const w=window.innerWidth;label.textContent=w<=560?'Mobile view · 1 column':w<=900?'Tablet view · 2 columns':'Desktop view · 3 columns'}window.addEventListener('resize',updateSize);updateSize();

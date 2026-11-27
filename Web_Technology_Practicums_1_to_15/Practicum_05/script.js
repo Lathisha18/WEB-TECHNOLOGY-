@@ -1,0 +1,1 @@
+const menu=document.querySelector('.sidebar');document.getElementById('menuButton').addEventListener('click',()=>menu.classList.toggle('collapsed'));document.querySelectorAll('.sidebar a').forEach(link=>link.addEventListener('click',()=>{document.querySelectorAll('.sidebar a').forEach(a=>a.classList.remove('active'));link.classList.add('active')}));
